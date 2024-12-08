@@ -26,7 +26,7 @@ VALUES
 
 -- 1-2 修改：用 Email 找到 李燕容、肌肉棒子、Q太郎，如果他的 Role 為 USER 將他的 Role 改為 COACH
 UPDATE "USER"
-SET "role" = "COACH"
+SET "role" = 'COACH'
 WHERE "email" IN ('lee2000@hexschooltest.io','muscle@hexschooltest.io','starplatinum@hexschooltest.io');
 
 

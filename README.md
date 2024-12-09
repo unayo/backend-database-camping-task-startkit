@@ -54,3 +54,27 @@ $ npm run stop
 ```
 $ npm run clean
 ```
+DBeaver 操作
+1. 在 DBeaver 資料庫中的資料夾右鍵，選擇 Refresh 刷新。
+2. 重新開啟 SQL 腳本進行檢查。
+
+## 使用 DBeaver 連接本地端 PostgreSQL 資料庫
+
+### 開啟 DBeaver 並建立連線
+
+1. 啟動 DBeaver，點擊左上角插頭圖標。
+2. 選擇 PostgreSQL（大象圖標），點擊下一步。
+3. 設定連線參數
+4. 測試連線: 點擊左下角的測試連線，確保連線成功。
+5. 點擊 Finish 完成設定
+
+### 資料庫操作
+
+1. 資料庫瀏覽器中會顯示新建立的連線。
+2. 右鍵資料夾，選擇 SQL 編輯器 -> 開啟 SQL 腳本，即可執行 SQL 指令。
+
+## 提交專案至 GitHub
+
+1. 開啟 GitHub Actions
+2. 確認專案已提交至 GitHub。
+3. 開啟 GitHub Actions 頁面，檢查測試指令是否有錯誤。
